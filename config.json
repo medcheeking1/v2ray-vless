@@ -6,18 +6,18 @@
       "settings": {
         "clients": [
           {
-            "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "id": "12c3f7e1-9a1f-4b3b-b531-6483ed43aabd",
+            "flow": "xtls-rprx-vision",
             "level": 0,
-            "email": "user@example.com"
+            "email": "v2ray@free-mali.net"
           }
         ],
-        "decryption": "none"
+        "decryption": "none",
+        "fallbacks": []
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/vless"
-        }
+        "network": "tcp",
+        "security": "none"
       }
     }
   ],
